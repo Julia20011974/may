@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: url(../img/red-green-background.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.firework {
+  background: url(../img/firework.gif) no-repeat;
+  background-size: cover;
+}
+
+.head {
+  height: 90px;
+}
+.head-star {
+  width: 150px;
+  height: 90px;
+  float: right;
+}
+
+.head-star > img {
+  width: 90%;
+}
+
+.container-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  text-align: center;
+  width: 60%;
+  margin: 30px;
+}
+
+.congratulation {
+  color: darkblue;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+}
+.congratulation-yellow {
+  display: block;
+  font-size: 40px;
+  color: #333fff;
+  margin-bottom: 20px;
+}
+
+.veterans {
+  width: 40%;
+  background: url(../img/veterans.png) no-repeat;
+  background-size: cover;
+}
+
+.foot-may {
+  width: 300px;
+}
+
+.foot-may > img {
+  width: 90%;
+}
